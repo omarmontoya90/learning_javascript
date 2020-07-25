@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learning Javascript</title>
+</head>
+
+<body>
+  <a href="index.html">Back</a>
+  <h1>SCRIPT TAG</h1>
+  <p>The tag "script" allows insert javascript code, it is generally insert as functions. One function is a block of javascript code that can be called on a event</p>
+
+  <div>
+    <h2>Changes in CSS</h2>
+    <p id="change-css" style="font-size: 15px; color: blue">This text will change color and size</p>
+    <button onClick="color_and_size_modifier()">Change color and size</button>
+  </div>
+
+  <script>
+    function color_and_size_modifier() {
+      document.getElementById('change-css').style='font-size:30px; color:red';
+    }
+  </script>
+
+  <div>
+    <h2>Code of previous element</h2>
+    <p>The javascript code is placed in head of page</p>
+    <img src="second_way_head.png" alt="second_way_head">
+    <p>The javascript code is placed in body of page</p>
+    <img src="second_way_body.png" alt="second_way_body">
+  </div>
+</body>
+
+</html>
